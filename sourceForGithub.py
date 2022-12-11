@@ -40,7 +40,7 @@ def addRecord(new, records):
             return
     records.append(new)
         
-
+#spaCy code based on examples from class slides and https://nlpforhackers.io/complete-guide-to-spacy/
 def antAnalys(text):
     out = 0
     goodWords = ["hype", "anticipation", "release", "sequel"]
